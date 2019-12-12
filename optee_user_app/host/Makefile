@@ -12,7 +12,7 @@ CFLAGS += -Wall -I../ta/include -I$(TEEC_EXPORT)/include -I./include
 #Add/link other required libraries here
 LDADD += -lteec -L$(TEEC_EXPORT)/lib
 
-BINARY = optee-user-app
+BINARY = optee_user_app
 .PHONY: all
 all: $(BINARY)
 
